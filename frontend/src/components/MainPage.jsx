@@ -131,7 +131,7 @@ export default function CerveAILanding() {
                     <aside ref={(el) => setReveal(el, 4)} className="reveal opacity-0 translate-y-6 transition duration-700">
                         <div className="bg-[#2E1F1C]/40 rounded-2xl p-4 backdrop-blur-sm shadow-xl">
                             <img
-                                src={""}
+                                src={"flavor.png"}
                                 alt="Hero"
                                 onError={(e) =>
                                     imgOnError(e, "https://images.unsplash.com/photo-1542444445-4f8d6a6c2f5c?q=80&w=1200&auto=format&fit=crop")
